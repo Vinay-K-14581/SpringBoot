@@ -1,4 +1,4 @@
- pipeline{
+pipeline{
    agent any
    tools{
        maven 'Maven 3.9.6' 
@@ -30,3 +30,4 @@
      echo 'This pipeline is completed..'
    }
  }
+}
